@@ -30,7 +30,7 @@ The neural KAA reconstruction consists of three separate steps:
 
 # Neural KEM for dynamic PET reconstruction:
 
-a). Please download the system matrix folder from https://drive.google.com/drive/folders/1rx_CsvE8D7N2HLML14VUsjNmG2sssSeK?usp=sharing
+a). Please download the system matrix folder from https://drive.google.com/drive/folders/1rx_CsvE8D7N2HLML14VUsjNmG2sssSeK?usp=sharing, and put them into folder "/data/GE690TOF2D"
 
 b). Then run 'Test_demo.m' to test the proposed method and compare it with other methods in the simulation study that we used in the paper.
 
