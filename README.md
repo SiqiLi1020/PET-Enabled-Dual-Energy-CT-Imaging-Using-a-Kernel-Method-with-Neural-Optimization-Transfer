@@ -18,32 +18,29 @@ Last date: 11/08/2024
 
 # Overview
 
-
+![figure](https://github.com/user-attachments/assets/b9a35c03-a26d-4fbc-925f-cceb4be4005d)
 
 The neural KAA reconstruction consists of three separate steps: 
 
-(1) a KEM step for image update from the projection data
+(1) PET activity image update (MLEM) 
 
-(2) a deep-learning step in the image domain for updating the kernel coefficient image
+(2) gCT image update (KTR)
+
+(3) A weighted least-square neural-network learning in the gCT image domain
 
 # Neural KEM for dynamic PET reconstruction:
 
-a). You can run 'demo_Nerual_KEM.m' to test the proposed method on Zubal phantom simulation that we used in the paper.
+a). Please run 'Test_demo.m' to test the proposed method and compare it with other methods in the simulation study that we used in the paper.
 
-b).	'DIP_step.py' is a function to run the step of deep coefficient prior (deep learning), and the whole reconstruction is implemented on Matlab
+b). 'DIP_step.py' is a function running the step of a weighted least-square neural-network learning in the gCT image domain, and the whole reconstruction is implemented on Matlab.
 
 # Required packages for PET reconstruction:
 
-a).	To use this package, you need to add the KER_v0.11 package into your matlab path by
-  	running setup.m in matlab. KER_v0.11 package can be downloaded from:
-   
+To use this package, you need to add the "KER_v0.11" and "PLOT_v1.0" packages into your Matlab path by running setup.m in Matlab. Both packages can be downloaded from:
+
 	https://wanglab.faculty.ucdavis.edu/code
 
-b).	To test the algorithms in the package, run "demo_Neural_KEM.m" in the current folder. You
-  	may need your own system matrix G or use Jeff Fessler's IRT matlab toolbox to 
-  	generate one. IRT can downloaded from 
-  
-      	http://web.eecs.umich.edu/~fessler/code/index.html
+
 
 # License
 This package is the proprietary property of The Regents of the University of California.
