@@ -44,7 +44,7 @@ To run the demo code, you need to add the "KER_v0.11" and "PLOT_v1.0" packages i
 
 # Future effort:
 
-Please refer to our latest published paper on EJNMMI regarding the implementation of real data. We hope the implementation of PET-enabled DECT on real data will come soon!
+Please refer to our latest published paper on EJNMMI regarding the implementation of real data. The implementation of PET-enabled DECT on real data will come soon!
 
 	Zhu Y, Li S, Xie Z, Leung EK, Bayerlein R, Omidvari N, Cherry SR, Qi J, Badawi RD, Spencer BA, Wang GB. Feasibility of PET-enabled dual-energy CT imaging: First physical phantom and initial patient study results. European Journal of Nuclear Medicine and Molecular Imaging, accepted, November 2024. arXiv:2402.02091. 3 Feb 2024. https://doi.org/10.48550/arXiv.2402.02091.
 
