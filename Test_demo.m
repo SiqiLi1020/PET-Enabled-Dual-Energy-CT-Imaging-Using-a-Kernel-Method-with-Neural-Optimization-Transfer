@@ -83,7 +83,7 @@ xinit(Gopt.mask) = 1;
 
 % fold
 mkdir('result/', sprintf('xcat_proj%dm_rec',count/1e6));
-
+mkdir('trained_model');
 % load noisy projection
 load(sprintf('data/proj%d', i));
 
