@@ -30,13 +30,15 @@ The neural KAA reconstruction consists of three separate steps:
 
 # Neural KEM for dynamic PET reconstruction:
 
-a). Please run 'Test_demo.m' to test the proposed method and compare it with other methods in the simulation study that we used in the paper.
+a). Please download the system matrix folder from https://drive.google.com/drive/folders/1rx_CsvE8D7N2HLML14VUsjNmG2sssSeK?usp=sharing
 
-b). 'DIP_step.py' is a function running the step of a weighted least-square neural-network learning in the gCT image domain, and the whole reconstruction is implemented on Matlab.
+b). Then run 'Test_demo.m' to test the proposed method and compare it with other methods in the simulation study that we used in the paper.
+
+c). 'DIP_step.py' is a function running the step of a weighted least-square neural-network learning in the gCT image domain, and the whole reconstruction is implemented on Matlab.
 
 # Required packages for PET reconstruction:
 
-To use this package, you need to add the "KER_v0.11" and "PLOT_v1.0" packages into your Matlab path by running setup.m in Matlab. Both packages can be downloaded from:
+To run the demo code, you need to add the "KER_v0.11" and "PLOT_v1.0" packages into your Matlab path by running setup.m in Matlab. Both packages can be downloaded from:
 
 	https://wanglab.faculty.ucdavis.edu/code
 
